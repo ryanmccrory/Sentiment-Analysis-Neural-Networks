@@ -2,9 +2,6 @@ Ryan McCrory
 NLP Assignment 2
 2/19/20
 
-Note: I shared the assignment from google colab with Professor Flanigan, Jinrui Yang, and Brian Schwarzmann. I submitted the assignment with both the .py and .ipynb extensions. I'm not sure if this was necessay but I wrote the code such that it should be ran in google collab. If there is an issue with the submitted file, I also put the assignment on my github, which is accessible using the link below.
-https://github.com/ryanmccrory/NLP-A2/blob/master/NLP_A2.ipynb
-
 To run my program, first open it in google collab and upload the file called glove.6B.100d.txt. This file is included in my submission and contains the pretrained embedding needed for Part 3 of the assignment. Then, run each code section individually below the text labelled 'Setup', 'Sentiment Analysis', 'Training Batch Size', and 'Part 1'. This will load and preprocess the movie reviews in a training, validation, and test set as well as build and evaluate the SimpleRNN model for Part 1. 
 
 Then, if you want to run my code for Part 2, change the value of the batch size in the first code section under 'Training Batch Size' to 512 for best results. Then, run each code section individually under the text labelled 'Training Batch Size' and 'Part 2'. This will build and evaluate the GRU model. Note that the glove.6B.100d.txt file must be uploaded for this to work.
